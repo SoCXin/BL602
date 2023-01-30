@@ -1,0 +1,37 @@
+{
+    "type":"SoC",
+    "name":"BL602",
+    "title": "bouffalolab BL602 SoC",
+    "description":"bouffalolab BLE SoC",
+    "Core": {
+        "CoreNum": 1,
+        "Core":"RISC-V",
+        "Fmax":192,
+        "DMIPS": 240,
+        "CoreMark": 400
+    },
+    "manufacturer": {
+        "vendor":"bouffalolab",
+        "homepage":"https://www.bouffalolab.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/BL602.git"
+    },
+    "version":"1.0.0",
+    "series":["BL604","BL602"],
+    "package":["QFN40","QFN32"],
+    "peripheral": ["Wi-Fi","UART","SPI","I2C"],
+    "temp": [-40,85],
+    "volt": [1.7,5.5],
+    "ESD": {
+        "HBM": 4000,
+        "CDM": 500
+    },
+    "keywords": [
+        "RISC-V",
+        "bouffalolab",
+        "Wi-Fi","UART","I2C","SPI"
+    ]
+}
+
