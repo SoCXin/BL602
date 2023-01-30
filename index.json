@@ -2,7 +2,7 @@
     "type":"SoC",
     "name":"BL602",
     "title": "bouffalolab BL602 SoC",
-    "description":"bouffalolab BLE SoC",
+    "description":"bouffalolab Wi-Fi+BLE SoC",
     "Core": {
         "CoreNum": 1,
         "Core":"RISC-V",
